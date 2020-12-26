@@ -1,6 +1,6 @@
 {
   "name": "@retjo/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "Alfan Jauhari <hi.alfanj@gmail.com>",
   "homepage": "",
@@ -27,7 +27,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@retjo/button": "^1.0.3"
+    "@retjo/button": "^1.0.4"
   },
   "gitHead": "be08f55636ae4e03a2ad72b432694b72321b8e99"
 }
