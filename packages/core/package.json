@@ -12,6 +12,12 @@
     "src": "src",
     "test": "__tests__"
   },
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "default": "./dist/esm/index.js"
+    }
+  },
   "files": [
     "src",
     "dist"

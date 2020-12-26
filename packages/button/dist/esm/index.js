@@ -1,3 +1,2 @@
-import { default as Button } from './button';
-export { Button };
+export * from './button';
 //# sourceMappingURL=index.js.map

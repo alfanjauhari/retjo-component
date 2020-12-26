@@ -2,9 +2,11 @@
 
 exports.__esModule = true;
 
-var _button = _interopRequireDefault(require("./button"));
+var _button = require("./button");
 
-exports.Button = _button["default"];
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+Object.keys(_button).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _button[key]) return;
+  exports[key] = _button[key];
+});
 //# sourceMappingURL=index.js.map

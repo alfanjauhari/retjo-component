@@ -1,7 +1,7 @@
 "use strict";
 
 exports.__esModule = true;
-exports["default"] = Button;
+exports.Button = Button;
 
 var _react = _interopRequireDefault(require("react"));
 

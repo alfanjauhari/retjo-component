@@ -13,7 +13,7 @@ function _taggedTemplateLiteralLoose(strings, raw) { if (!raw) { raw = strings.s
 import React from 'react';
 import tw from 'twin.macro';
 var BtnStyle = tw.button(_templateObject());
-export default function Button(_ref) {
+export function Button(_ref) {
   var type = _ref.type,
       onClick = _ref.onClick,
       children = _ref.children;

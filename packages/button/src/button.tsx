@@ -8,7 +8,7 @@ interface IButton {
 
 const BtnStyle = tw.button`px-8 py-3 rounded bg-black text-white text-center`;
 
-export default function Button({
+export function Button({
   type,
   onClick,
   children,
