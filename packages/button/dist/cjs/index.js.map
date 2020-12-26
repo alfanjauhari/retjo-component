@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.tsx"],"names":[],"mappings":";;;;AAAA","sourcesContent":["import { default as Button } from './button';\r\n\r\nexport { Button };\r\n"],"file":"index.js"}

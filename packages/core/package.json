@@ -20,10 +20,13 @@
     "access": "public"
   },
   "scripts": {
-    "build": "concurrently yarn:build:*",
+    "build": "rimraf dist && concurrently yarn:build:*",
     "build:cjs": "cross-env BABEL_ENV=cjs babel src --root-mode upward --extensions .ts,.tsx -d dist/cjs --source-maps",
     "build:esm": "cross-env BABEL_ENV=esm babel src --root-mode upward --extensions .ts,.tsx -d dist/esm --source-maps",
     "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@retjo/button": "^1.0.1"
   }
 }

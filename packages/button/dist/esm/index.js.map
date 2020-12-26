@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.tsx"],"names":["default","Button"],"mappings":"AAAA,SAASA,OAAO,IAAIC,MAApB,QAAkC,UAAlC;AAEA,SAASA,MAAT","sourcesContent":["import { default as Button } from './button';\r\n\r\nexport { Button };\r\n"],"file":"index.js"}

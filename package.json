@@ -38,7 +38,7 @@
   },
   "scripts": {
     "css": "postcss assets/tailwind.css -o assets/app.css",
-    "build": "npm run css && lerna run build",
+    "build": "lerna run build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "publish": "lerna publish"
