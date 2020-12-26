@@ -28,5 +28,6 @@
   },
   "dependencies": {
     "@retjo/button": "^1.0.2"
-  }
+  },
+  "gitHead": "e70d645e717b27952fb6825d9a398363bb7352ab"
 }
