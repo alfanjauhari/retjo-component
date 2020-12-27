@@ -27,7 +27,11 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "peerDependencies": {
-    "react": "17.x"
+    "react": "17.x",
+    "twin.macro": "^2.0.7"
   },
-  "gitHead": "9f1b63bcd3e40bfd472f0a5b4bd4ec4ab5d25b17"
+  "gitHead": "9f1b63bcd3e40bfd472f0a5b4bd4ec4ab5d25b17",
+  "dependencies": {
+    "twin.macro": "^2.0.7"
+  }
 }
